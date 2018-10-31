@@ -6,17 +6,35 @@ import { HomeComponent } from './home/home.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { SlideshowHomeComponent } from './slideshow-home/slideshow-home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { GalleryComponent } from './gallery/gallery.component';
+import { NewProjectComponent } from './new-project/new-project.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
+import { HomeContactComponent } from './home-contact/home-contact.component';
+import { GalleryNodeComponent } from './gallery-node/gallery-node.component';
+import { FooterComponent } from './footer/footer.component';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavigationBarComponent,
-    SlideshowHomeComponent
+    SlideshowHomeComponent,
+    GalleryComponent,
+    NewProjectComponent,
+    BlogComponent,
+    ContactComponent,
+    AboutComponent,
+    HomeContactComponent,
+    GalleryNodeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

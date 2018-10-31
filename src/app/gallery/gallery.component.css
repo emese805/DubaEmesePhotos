@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+#basic{
+  position:absolute;
+  left: 12%;
+  top: 2vw;
+}

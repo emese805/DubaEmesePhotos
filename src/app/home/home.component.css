@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+.text-box {
+  box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.5);
+  padding: 10px 40px;
+  position: relative;
+  border-radius: 1vw;
+  left: 24vw;
+  width: 70%;
+}
+h2{
+  text-align: center;
+}
+
+
+#first{
+  background-color: #b6cbff;
+  top: 36vw;
+}
+#second{
+  background-color: #c7dbff;
+  top: 40vw;
+}

@@ -1,0 +1,43 @@
+.card {
+  position: absolute;
+  left: 2vw;
+  top: 40vw;
+  box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.5);
+  max-width: 17vw;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 1.6vw;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 1vw;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.4vw;
+}
+
+#button-contact{
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.6vw;
+  color: black;
+}
+#rang{
+  font-size: 0.9vw;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}

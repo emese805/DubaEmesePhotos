@@ -1,10 +1,16 @@
+
 /* Style the links inside the sidenav */
+.icon{
+  height: 20px;
+  position: absolute;
+  left: 120px;
+}
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
   left: -100px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
-  width: 130px; /* Set a specific width */
+  width: 120px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
   font-size: 20px; /* Increase font size */
   color: white; /* White text color */
@@ -14,6 +20,7 @@
 
 #mySidenav a:hover {
   left: 0; /* On mouse-over, make the elements appear as they should */
+  position: absolute;
 }
 
 /* The about link: 20px from the top with a green background */
@@ -28,21 +35,22 @@
 }
 
 #projects {
-  top: 140px;
+  top: 80px;
   background-color: #6fa6ff; /* Red */
 }
 
 #gallery {
-  top: 200px;
+  top: 140px;
   background-color: #8fa8ff /* Light Black */
 }
 
 #about {
-  top: 260px;
+  top: 200px;
   background-color: #afaaff; /* Blue */
 }
 
 #contact {
-  top: 320px;
+  top: 260px;
   background-color: #cfacff; /* Blue */
 }
+/*320*/

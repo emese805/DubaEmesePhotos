@@ -2,13 +2,6 @@
   padding: 0 8px;
 }
 
-#column_picture{
-  background-color: white;
-}
-#column_text{
-  text-align: center;
-}
-
 .row:after {
   content: "";
   display: table;
@@ -23,6 +16,7 @@
   margin: 0.3vw;
   max-height: 18vw;
   cursor: pointer;
+
 }
 /* The Modal (background) */
 .modal {

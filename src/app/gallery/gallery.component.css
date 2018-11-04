@@ -4,8 +4,7 @@
 .column {
   float: left;
   width: 25%;
-  box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.5);
-  background-color: white;
+  box-shadow: 0 6vw 12vw 0 rgba(0, 0, 0, 1);
 }
 #basic{
   position:absolute;

@@ -1,6 +1,7 @@
-<!-- Images used to open the lightbox -->
-<div id="basic">
-  <div class="row">
-    <app-gallery-node *ngFor="let gallery of galleryStructure" [gallery]="gallery"></app-gallery-node>
+<div class="frame">
+  <div class="flex-container">
+    <div *ngFor="let album of gallery" class="album-holder">
+      <app-album [album]="album"></app-album>
+    </div>
   </div>
 </div>

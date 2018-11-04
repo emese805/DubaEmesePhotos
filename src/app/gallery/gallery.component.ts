@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-export interface Gallery {
-  galleryName: string;
+export interface Album {
+  albumName: string;
   folderName: string;
   defaultPicture: number;
   id: string;
@@ -16,17 +16,17 @@ export interface Picture {
 @Component({
   selector: 'app-gallery',
   templateUrl: './gallery.component.html',
-  styleUrls: ['./gallery.component.css']
+  styleUrls: ['./gallery.component.scss']
 })
 
 export class GalleryComponent implements OnInit {
-  public galleryStructure: Gallery[];
+  public gallery: Album[];
 
   constructor() {
-    this.galleryStructure = [
+    this.gallery = [
       {
-        galleryName: 'Természet',
-        folderName: '../../assets/picture/nature/',
+        albumName: 'Természet',
+        folderName: 'assets/picture/nature/',
         defaultPicture: 1,
         id: this.randomID(),
         pictures: [
@@ -49,8 +49,8 @@ export class GalleryComponent implements OnInit {
         ]
       },
       {
-        galleryName: 'Gyerekek',
-        folderName: '../../assets/picture/children/',
+        albumName: 'Gyerekek',
+        folderName: 'assets/picture/children/',
         defaultPicture: 6,
         id: this.randomID(),
         pictures: [
@@ -70,8 +70,8 @@ export class GalleryComponent implements OnInit {
         ]
       },
       {
-        galleryName: 'Portré',
-        folderName: '../../assets/picture/people/',
+        albumName: 'Portré',
+        folderName: 'assets/picture/people/',
         defaultPicture: 1,
         id: this.randomID(),
         pictures: [
@@ -84,8 +84,8 @@ export class GalleryComponent implements OnInit {
         ]
       },
       {
-        galleryName: 'Életkép',
-        folderName: '../../assets/picture/streetpicture/',
+        albumName: 'Életkép',
+        folderName: 'assets/picture/streetpicture/',
         defaultPicture: 1,
         id: this.randomID(),
         pictures: [

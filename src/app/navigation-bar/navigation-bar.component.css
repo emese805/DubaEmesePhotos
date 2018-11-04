@@ -1,10 +1,9 @@
-
-/* Style the links inside the sidenav */
 .icon{
   height: 20px;
   position: absolute;
   left: 120px;
 }
+
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
   left: -100px; /* Position them outside of the screen */
@@ -16,6 +15,7 @@
   color: white; /* White text color */
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
   text-align: left;
+  z-index: 10;
 }
 
 #mySidenav a:hover {

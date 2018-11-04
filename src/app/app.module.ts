@@ -12,9 +12,9 @@ import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { HomeContactComponent } from './home-contact/home-contact.component';
-import { GalleryNodeComponent } from './gallery-node/gallery-node.component';
 import { FooterComponent } from './footer/footer.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { AlbumComponent } from './gallery/album/album.component';
 
 @NgModule({
   declarations: [
@@ -28,8 +28,8 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
     ContactComponent,
     AboutComponent,
     HomeContactComponent,
-    GalleryNodeComponent,
-    FooterComponent
+    FooterComponent,
+    AlbumComponent
   ],
   imports: [
     BrowserModule,

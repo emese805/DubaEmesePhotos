@@ -1,0 +1,25 @@
+<div id="{{album.id}}">
+  <div class="album-header" (click)="hideAlbumContainer = !hideAlbumContainer">
+    <div>
+      <img [src]="album.folderName + album.pictures[album.defaultPicture].url">
+    </div>
+    <footer>{{album.albumName}}</footer>
+  </div>
+  <div [hidden]="hideAlbumContainer">
+    <div class="album-holder">
+      <section>
+        <header>
+          <h1>{{album.albumName}}</h1>
+          <fa-icon [icon]="close" (click)="hideAlbumContainer = !hideAlbumContainer"></fa-icon>
+        </header>
+        <article>
+          <fa-icon [icon]="leftArrow" (click)="prevPic()"></fa-icon>
+          <div class="image-holder">
+            <img src="{{album.folderName + album.pictures[album.defaultPicture].url}}">
+          </div>
+          <fa-icon [icon]="rightArrow" (click)="nextPic()"></fa-icon>
+        </article>
+      </section>
+    </div>
+  </div>
+</div>

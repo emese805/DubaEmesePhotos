@@ -15,6 +15,7 @@ import { HomeContactComponent } from './home-contact/home-contact.component';
 import { GalleryNodeComponent } from './gallery-node/gallery-node.component';
 import { FooterComponent } from './footer/footer.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { PrivacyStatementComponent } from './privacy-statement/privacy-statement.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
     AboutComponent,
     HomeContactComponent,
     GalleryNodeComponent,
-    FooterComponent
+    FooterComponent,
+    PrivacyStatementComponent
   ],
   imports: [
     BrowserModule,

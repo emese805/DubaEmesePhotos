@@ -2,24 +2,25 @@
   <img src="{{gallery.folderName + gallery.pictures[gallery.defaultPicture].url}}" (click)="openModal();currentSlide(1)" class="hover-shadow">
   <p>{{gallery.galleryName}}</p>
 </div>
+<div class="loader">
+  <!-- The Modal/Lightbox -->
+  <div id="{{gallery.id}}" class="modal">
+    <span class="close cursor" (click)="closeModal()">&times;</span>
+    <div class="modal-content">
 
-<!-- The Modal/Lightbox -->
-<div id="{{gallery.id}}" class="modal">
-  <span class="close cursor" (click)="closeModal()">&times;</span>
-  <div class="modal-content">
+      <div class="mySlides" *ngFor="let picture of gallery.pictures; index as i">
+        <div class="numbertext">{{i + 1}} / {{gallery.pictures.length}}</div>
+        <img src="{{gallery.folderName + picture.url}}" style="max-height: 35vw">
+      </div>
 
-    <div class="mySlides" *ngFor="let picture of gallery.pictures; index as i">
-      <div class="numbertext">{{i + 1}} / {{gallery.pictures.length}}</div>
-      <img src="{{gallery.folderName + picture.url}}" style="max-height: 35vw">
-    </div>
+      <!-- Next/previous controls -->
+      <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+      <a class="next" (click)="plusSlides(1)">&#10095;</a>
 
-    <!-- Next/previous controls -->
-    <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
-    <a class="next" (click)="plusSlides(1)">&#10095;</a>
-
-    <!-- Thumbnail image controls -->
-    <div class="column" *ngFor="let picture of gallery.pictures; index as i">
-      <img class="demo" src="{{gallery.folderName + picture.url}}" (click)="currentSlide(i + 1)" alt="{{picture.caption}}">
+      <!-- Thumbnail image controls -->
+      <div class="column" *ngFor="let picture of gallery.pictures; index as i">
+        <img class="demo" src="{{gallery.folderName + picture.url}}" (click)="currentSlide(i + 1)" alt="{{picture.caption}}">
+      </div>
     </div>
   </div>
 </div>

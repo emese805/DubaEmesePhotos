@@ -6,6 +6,7 @@ import {BlogComponent} from './blog/blog.component';
 import {ContactComponent} from './contact/contact.component';
 import {AboutComponent} from './about/about.component';
 import {NewProjectComponent} from './new-project/new-project.component';
+import {PrivacyStatementComponent} from "./privacy-statement/privacy-statement.component";
 
 const navigation: Routes = [
   { path: '', component: HomeComponent },
@@ -13,7 +14,8 @@ const navigation: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
   { path: 'new-project', component: NewProjectComponent },
-  { path: 'gallery', component: GalleryComponent }
+  { path: 'gallery', component: GalleryComponent },
+  { path: 'privacy_statement', component: PrivacyStatementComponent }
 ];
 @NgModule({
   imports: [

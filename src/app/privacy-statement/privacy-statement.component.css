@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  max-width: 80%; /* Maximum width */
+  max-height: 80%;
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 2vw; /* Some padding */
+}
+
+* {
+  box-sizing: border-box;
+}
+.text-box {
+  box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.5);
+  padding: 0.67vw 2.67vw;
+  border-radius: 0.07vw;
+  margin: 5% 10%;
+  width: 80%;
+}
+h2{
+  text-align: center;
+}

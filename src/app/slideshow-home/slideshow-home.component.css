@@ -3,6 +3,7 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 78%;
+  width: 80%;
   height: 35vw;
   position: absolute;
   left: 11%;

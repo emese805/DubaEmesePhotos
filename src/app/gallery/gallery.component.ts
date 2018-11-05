@@ -106,7 +106,9 @@ export class GalleryComponent implements OnInit {
           { url: 'DSC_6459.jpg', caption: 'Kép 23'},
           { url: 'DSC_6462.jpg', caption: 'Kép 24'},
           { url: 'DSC_6623.jpg', caption: 'Kép 25'},
-          { url: 'DSC_6726.jpg', caption: 'Kép 26'}
+          { url: 'DSC_6726.jpg', caption: 'Kép 26'},
+          { url: 'DSC_6507.jpg', caption: 'Kép 27'},
+          { url: 'DSC_6641.jpg', caption: 'Kép 28'}
         ]
       },
       {
@@ -115,7 +117,8 @@ export class GalleryComponent implements OnInit {
         defaultPicture: 0,
         id: this.randomID(),
         pictures: [
-          { url: 'DSC_6532.jpg', caption: 'Kép 1'}
+          { url: 'DSC_6532.jpg', caption: 'Kép 1'},
+          { url: 'DSC_5625.jpg', caption: 'Kép 2'}
 
         ]
       },
@@ -141,9 +144,8 @@ export class GalleryComponent implements OnInit {
           { url: 'DSC_0833 (1).jpg', caption: 'Kép 14'},
           { url: 'DSC_6074.jpg', caption: 'Kép 15'},
           { url: 'DSC_6237.jpg', caption: 'Kép 16'},
-
-
-
+          { url: 'DSC_0833 (2).jpg', caption: 'Kép 17'},
+          { url: 'DSC_1478.jpg', caption: 'Kép 18'}
         ]
       },
       {
@@ -159,7 +161,9 @@ export class GalleryComponent implements OnInit {
           { url: 'DSC_5592.jpg', caption: 'Kép 5'},
           { url: 'DSC_5593.jpg', caption: 'Kép 6'},
           { url: 'tami.jpg', caption: 'Kép 7'},
-          { url: 'DSC_5834.jpg', caption: 'Kép 8'}
+          { url: 'DSC_5834.jpg', caption: 'Kép 8'},
+          { url: 'DSC_0192.jpg', caption: 'Kép 9'},
+          { url: 'DSC_4998.jpg', caption: 'Kép 10'}
         ]
       },
       {
@@ -175,8 +179,7 @@ export class GalleryComponent implements OnInit {
           { url: 'DSC_5518.jpg', caption: 'Kép 5'},
           { url: 'DSC_5533.jpg', caption: 'Kép 6'},
           { url: 'DSC_5541.jpg', caption: 'Kép 7'},
-          { url: 'DSC_5568.jpg', caption: 'Kép 8'},
-          { url: 'DSC_5625.jpg', caption: 'Kép 9'}
+          { url: 'DSC_5568.jpg', caption: 'Kép 8'}
         ]
       }
     ];

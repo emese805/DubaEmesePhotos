@@ -22,19 +22,19 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  margin-top: -1.47vw;
+  padding: 1.07vw;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.2vw;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 0.2vw 0.2vw 0;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0.2vw 0 0 0.2vw;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -45,10 +45,10 @@
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+  font-size: 1vw;
+  padding: 0.54vw 0.8vw;
   position: absolute;
-  bottom: 8px;
+  bottom: 0.54vw;
   width: 100%;
   text-align: center;
 }
@@ -56,11 +56,11 @@
 /* The dots/bullets/indicators */
 .dot {
   position: relative;
-  top:30vw;
+  top: 30vw;
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
+  height: 1vw;
+  width: 1vw;
+  margin: 0 0.14vw;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;

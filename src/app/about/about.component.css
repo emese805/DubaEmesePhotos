@@ -10,7 +10,7 @@ body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 90vw;
   margin: 0 auto;
 }
 
@@ -18,17 +18,17 @@ body {
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
+  width: 0.5vw;
   background-color: white;
   top: 0;
   bottom: 0;
   left: 50%;
-  margin-left: -3px;
+  margin-left: -0.3vw;
 }
 
 /* Container around content */
 .container {
-  padding: 10px 40px;
+  padding: 1vw 3.5vw;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -38,12 +38,12 @@ body {
 .container::after {
   content: '';
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
+  width: 2vw;
+  height: 2vw;
+  right: -1.5vw;
   background-color: white;
-  border: 4px solid #FF9F55;
-  top: 15px;
+  border: 0.4vw solid #FF9F55;
+  top: 1vw;
   border-radius: 50%;
   z-index: 1;
 }
@@ -63,12 +63,12 @@ body {
   content: " ";
   height: 0;
   position: absolute;
-  top: 22px;
+  top: 1.5vw;
   width: 0;
   z-index: 1;
-  right: 30px;
+  right: 2vw;
   border: medium solid white;
-  border-width: 10px 0 10px 10px;
+  border-width: 0.8vw 0 0.8vw 0.8vw;
   border-color: transparent transparent transparent white;
 }
 
@@ -77,26 +77,26 @@ body {
   content: " ";
   height: 0;
   position: absolute;
-  top: 22px;
+  top: 1.5vw;
   width: 0;
   z-index: 1;
-  left: 30px;
+  left: 2vw;
   border: medium solid white;
-  border-width: 10px 10px 10px 0;
+  border-width: 0.8vw 0.8vw 0.8vw 0;
   border-color: transparent white transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -1vw;
 }
 
 /* The actual content */
 .content {
-  padding: 20px 30px;
+  padding: 1.2vw 2vw;
   background-color: white;
   position: relative;
-  border-radius: 6px;
+  border-radius: 1.3vw;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -115,15 +115,15 @@ body {
 
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
-    left: 60px;
+    left: 4vw;
     border: medium solid white;
-    border-width: 10px 10px 10px 0;
+    border-width: 0.8vw 0.8vw 0.8vw 0;
     border-color: transparent white transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-    left: 15px;
+    left: 1vw;
   }
 
   /* Make all right containers behave like the left ones */

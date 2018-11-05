@@ -1,20 +1,20 @@
 
 /* Style the links inside the sidenav */
 .icon{
-  height: 20px;
+  height: 1.3vw;
   position: absolute;
-  left: 120px;
+  left: 8.2vw;
 }
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
-  left: -100px; /* Position them outside of the screen */
+  left: -6.67vw; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
-  padding: 15px; /* 15px padding */
-  width: 120px; /* Set a specific width */
+  padding: 1vw; /* 15px padding */
+  width: 8vw; /* Set a specific width */
   text-decoration: none; /* Remove underline */
-  font-size: 20px; /* Increase font size */
+  font-size: 1.34vw; /* Increase font size */
   color: white; /* White text color */
-  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  border-radius: 0 0.33vw 0.33vw 0; /* Rounded corners on the top right and bottom right side */
   text-align: left;
 }
 
@@ -25,32 +25,32 @@
 
 /* The about link: 20px from the top with a green background */
 #home {
-  top: 20px;
+  top: 1.34vw;
   background-color: #1fa1ff;
 }
 
 #blog {
-  top: 80px;
+  top: 5.34vw;
   background-color: #4fa4ff; /* Blue */
 }
 
 #projects {
-  top: 80px;
+  top: 5.34vw;
   background-color: #6fa6ff; /* Red */
 }
 
 #gallery {
-  top: 140px;
+  top: 9.34vw;
   background-color: #8fa8ff /* Light Black */
 }
 
 #about {
-  top: 200px;
+  top: 13.34vw;
   background-color: #afaaff; /* Blue */
 }
 
 #contact {
-  top: 260px;
+  top: 17.34vw;
   background-color: #cfacff; /* Blue */
 }
 /*320*/

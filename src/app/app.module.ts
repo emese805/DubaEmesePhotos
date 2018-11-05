@@ -15,7 +15,6 @@ import { HomeContactComponent } from './home-contact/home-contact.component';
 import { GalleryNodeComponent } from './gallery-node/gallery-node.component';
 import { FooterComponent } from './footer/footer.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
-import { GallerResponsiveComponent } from './galler-responsive/galler-responsive.component';
 
 @NgModule({
   declarations: [
@@ -30,8 +29,7 @@ import { GallerResponsiveComponent } from './galler-responsive/galler-responsive
     AboutComponent,
     HomeContactComponent,
     GalleryNodeComponent,
-    FooterComponent,
-    GallerResponsiveComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,

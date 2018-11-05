@@ -1,12 +1,12 @@
 .card {
   box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.2);
-  max-width: 30vw;
+  max-width: 70vw;
   margin: auto;
   text-align: center;
 }
 
 .title {
-  color: grey;
+  color: #27312c;
   font-size: 2vw;
 }
 

@@ -3,10 +3,10 @@
 }
 .text-box {
   box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.5);
-  padding: 10px 40px;
+  padding: 1.67vw 2.67vw;
   position: relative;
   border-radius: 1vw;
-  left: 24vw;
+  left: 22vw;
   width: 70%;
 }
 h2{

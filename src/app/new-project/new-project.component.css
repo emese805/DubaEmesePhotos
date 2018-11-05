@@ -20,8 +20,8 @@
 }
 .text-box {
   box-shadow: 0 2vw 4vw 0 rgba(0, 0, 0, 0.5);
-  padding: 10px 40px;
-  border-radius: 1vw;
+  padding: 0.67vw 2.67vw;
+  border-radius: 0.07vw;
   margin: 5% 10%;
   width: 80%;
 }

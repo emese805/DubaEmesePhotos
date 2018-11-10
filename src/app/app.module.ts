@@ -16,6 +16,7 @@ import { GalleryNodeComponent } from './gallery-node/gallery-node.component';
 import { FooterComponent } from './footer/footer.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { PrivacyStatementComponent } from './privacy-statement/privacy-statement.component';
+import { HomeSlidehsowComponent } from './home-slidehsow/home-slidehsow.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { PrivacyStatementComponent } from './privacy-statement/privacy-statement
     HomeContactComponent,
     GalleryNodeComponent,
     FooterComponent,
-    PrivacyStatementComponent
+    PrivacyStatementComponent,
+    HomeSlidehsowComponent
   ],
   imports: [
     BrowserModule,
